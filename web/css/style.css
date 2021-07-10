@@ -1,0 +1,85 @@
+a:hover, a:focus {
+    color: #2a6496;
+    text-decoration: none;
+}
+.square-service-block{
+    position:relative;
+    overflow:hidden;
+    margin:15px auto;
+    border-radius: 30px;
+}
+.square-service-block a {
+    background-color: #224077;
+    border-radius: 5px;
+    display: block;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+.square-service-block a:hover{
+    background-color: #5472a9;
+    border-radius: 5px;
+}
+
+.ssb-icon {
+    color: #fff;
+    display: inline-block;
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+
+h2.ssb-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+}
+
+/* cards turmas */
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+/* VíDEO CSS */
+
+#playlist {
+    display:table;
+    margin-top: 30px;
+}
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+}
+
+#playlist li:hover{
+    color:blue;
+}
+/*
+#videoarea {
+    float:left;
+    width:640px;
+    height:480px;
+    margin:10px;
+    margin-top: -75px;
+}*/
+
+@media screen and (max-width: 990px) {
+    .ajust{
+        padding-bottom: 20px;
+    }
+}
